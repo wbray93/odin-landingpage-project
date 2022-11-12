@@ -26,6 +26,8 @@ ul {
     display: flex;
     background-color: #1F2937;
     justify-content: space-around;
+    flex: 0 1 0;
+    flex-wrap: wrap;
 }
 
 /* Fix flex container two and hero text image and text sections spacing */
