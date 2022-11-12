@@ -1,26 +1,52 @@
 .flex-container-one {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    border: 1px solid gray;
     flex: 1 1 0;
     flex-wrap: wrap;
     gap: 250px;
+    background-color: #1F2937;
 }
 
 .header-logo {
-      border: 1px solid gray;
+
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    border: 2px solid green;
     display: flex;
     gap: 70px;
     font-size: 18px;
+    color: #E5E7EB;
 }
+
+.flex-container-two {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+}
+
+/* Fix flex container two and hero text image and text sections spacing */
+
+.hero-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    margin-top: 80px;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-image {
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
 
 .flex-container-three {
     border: 1px solid green;
@@ -43,6 +69,8 @@ ul {
 
 .image-caption-style {
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
 }
 
 
