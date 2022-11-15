@@ -12,9 +12,9 @@
     background-color: #1F2937;
 }
 
-.header-logo {
+/* .header-logo {
 
-}
+} */
 
 ul {
     list-style-type: none;
@@ -78,6 +78,29 @@ ul {
     font-size: 14px;
 }
 
+.flex-container-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 325px;
+    margin-top: 15px;
+}
+
+.testimonial-paragraph {
+    font-size: 36px;
+    font-style: light, italic;
+    color:#1F2937
+}
+
+.testimonial-author {
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+}
+
 
 @media screen and (max-width: 910px) {
     .flex-container-one {
@@ -107,4 +130,14 @@ ul {
 
         width: 200px;
     }
+
+    .testimonial-paragraph {
+        font-size: 20px;
+    }
+
+    .testimonial-author {
+        font-size: 14px;
+    }
 }
+
+/* Need to add media queries for phones and tablet size screens for the reference testamonial sections */
