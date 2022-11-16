@@ -26,6 +26,19 @@ ul {
     color: #E5E7EB;
 }
 
+.resume-link{
+    text-decoration: none;
+    color:#E5E7EB
+}
+
+.resume-link:hover {
+    color: #eca114
+}
+
+.resume-link::after {
+    color:#E5E7EB
+}
+
 .flex-container-two {
     display: flex;
     background-color: #1F2937;
@@ -107,6 +120,7 @@ ul {
 .flex-container-five {
     margin: 75px;
     height: 200px;
+    padding: 5px;
 }
 
 div.calltoaction-paragraph {
@@ -139,6 +153,20 @@ div.calltoaction-paragraph > p {
 .calltoaction-button > a {
     color: #F9FAF8;
     text-decoration: none;
+}
+
+.footer-container {
+    padding-top: 75px;
+}
+
+.flex-container-six {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    align-items: center;
+    padding: 25px;
 }
 
 @media screen and (max-width: 910px) {
