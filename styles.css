@@ -105,23 +105,40 @@ ul {
 }
 
 .flex-container-five {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 375px;
-    padding: 10px;
-    background-color: #3882F6;
-    
+    margin: 75px;
+    height: 200px;
 }
 
-.calltoaction-paragraph {
-    display: block;
-    font-size: 24px;
-    flex: 0 1 0;
+div.calltoaction-paragraph {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+    background-color: #3882F6;
+    border-radius: 30px 30px 30px 30px;
+    flex: 1 1 0;
+    flex-wrap: wrap;
+    border: 8px solid #71be23;
+}
+
+div.calltoaction-paragraph > p {
+    width: 800px;
+    font-size: 22px;
+    color: #F9FAF8;
 }
 
 .calltoaction-button {
+    border: 1px solid #F9FAF8;
+    text-align: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 20px;
+    border-radius: 15px 15px 15px 15px;
+}
 
+.calltoaction-button > a {
+    color: #F9FAF8;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 910px) {
@@ -149,7 +166,6 @@ ul {
 
     .hero-image {
         margin-top: 15px;
-
         width: 200px;
     }
 
@@ -160,6 +176,17 @@ ul {
     .testimonial-author {
         font-size: 14px;
     }
+
+    div.calltoaction-paragraph > p {
+        font-size: 18px;
+        padding: 5px;
+    }
+    
+    .calltoaction-button {
+        padding: 3px;
+        font-size: 12px;
+    }
 }
+
 
 /* Need to add media queries for phones and tablet size screens for the reference testamonial sections */
